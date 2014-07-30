@@ -1,6 +1,5 @@
 <h3>Adaptive grid: simple css adaptive grid layout.</h3>
 
----
 
 <a href="http://www.lucalorenzini.org/adaptiveGrid/adaptiveGridDemo.html">live demo</a>
 
