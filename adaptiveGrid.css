@@ -1,7 +1,6 @@
 /*
 Adaptive grid: simple css adaptive grid layout.
 
-Author: chielorenz@gmail.com
 https://github.com/chielorenz/adaptiveGrid.git
 
 CSS NOTE: .*Empty classes ore placeholders class to align other divs as you like.
@@ -19,7 +18,7 @@ When media queries are anableb -*Empty divs will no longer be displayed.
 .adaptiveGrid .threeQuarter,
 .adaptiveGrid .oneFifth,
 .adaptiveGrid .fourFifth{
-	background-color: #CCCCCC;
+	background-color: #CDCDCD;
 	border-radius: 5px;
 	margin: 10px 1% 10px 1%;
 	padding: 5px 2% 5px 2%;

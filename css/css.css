@@ -1,4 +1,6 @@
 body{
 	color: #363636;
+	background-color: #EFEFEF;
+	background-image: url('../img/gray.png');
 	font-family: 'Open Sans', sans-serif;
 }
