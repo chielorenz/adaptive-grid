@@ -1,9 +1,6 @@
-<h2>adaptiveGrid</h2>
-<h3>Simple css adaptive grid layout.</h3>
+<h3><b>Adaptive grid:</b> simple css adaptive grid layout.</h3>
 
----
-
-<h3>Classes:</h3>
+<h4>Classes:</h4>
 
 <p>.adaptiveGrid,</p>
 <p>.fill,</p>
@@ -17,13 +14,21 @@
 
 ---
 
-<h3>Structure:</h3>
+<h4>Structure:</h4>
 
-<p>root/</p>
-<p>adaptiveGrid.css 	 "simple css adaptive grid layout"</p>
-<p>adaptiveGridDemo.html 	 "html demo page"</p>
-<p>css/<p>
-<p>css.css<p>
-<p>font.css<p>
-<p>font/<p>
-<p>*.woff<p>
+<ul>
+	<li>root/</li>
+	<ul>
+		<li>adaptiveGrid.css 	 <-- simple css adaptive grid layout</li>
+		<li>adaptiveGridDemo.html 	 <-- html demo page</li>
+		<li>css/</li>
+		<ul>
+			<li>css.css</li>
+			<li>font.css</li>
+		</ul>
+		<li>font/</li>
+		<ul>
+			*.woff
+		</ul>
+	</ul>
+</ul>
