@@ -15,6 +15,7 @@
 	margin: 10px 1% 10px 1%;
 	padding: 5px 2% 5px 2%;
 	float: left;
+	overflow: hidden;
 }
 .adaptiveGrid .fill{
 	width: 94%;
@@ -39,4 +40,63 @@
 }
 .adaptiveGrid .fourFifth{
 	width: 74%;
+}
+.adaptiveGrid .fillEmpty,
+.adaptiveGrid .halfEmpty,
+.adaptiveGrid .oneThirdEmpty,
+.adaptiveGrid .twoThirdEmpty,
+.adaptiveGrid .oneQuarterEmpty,
+.adaptiveGrid .threeQuarterEmpty,
+.adaptiveGrid .oneFifthEmpty,
+.adaptiveGrid .fourFifthEmpty{
+	float: left;
+	overflow: hidden;
+	background-color: transparent;
+	margin: 10px 1% 10px 1%;
+}
+.adaptiveGrid .fillEmpty{
+	width: 100%;
+}	
+.adaptiveGrid .halfEmpty{
+	width: 48%;
+}
+.adaptiveGrid .oneThirdEmpty{
+	width: 31.333%;
+}
+.adaptiveGrid .twoThirdEmpty{
+	width: 64.666%;
+}
+.adaptiveGrid .oneQuarterEmpty{
+	width: 23%;
+}
+.adaptiveGrid .threeQuarterEmpty{
+	width: 73%;
+}
+.adaptiveGrid .oneFifthEmpty{
+	width: 22%;
+}
+.adaptiveGrid .fourFifthEmpty{
+	width: 78%;
+}
+@media only screen and (max-width: 600px){
+	.adaptiveGrid .fill,
+	.adaptiveGrid .half,
+	.adaptiveGrid .oneThird,
+	.adaptiveGrid .twoThird,
+	.adaptiveGrid .oneQuarter,
+	.adaptiveGrid .threeQuarter,
+	.adaptiveGrid .oneFifth,
+	.adaptiveGrid .fourFifth{
+		width: 94%;
+	}
+	.adaptiveGrid .fillEmpty,
+	.adaptiveGrid .halfEmpty,
+	.adaptiveGrid .oneThirdEmpty,
+	.adaptiveGrid .twoThirdEmpty,
+	.adaptiveGrid .oneQuarterEmpty,
+	.adaptiveGrid .threeQuarterEmpty,
+	.adaptiveGrid .oneFifthEmpty,
+	.adaptiveGrid .fourFifthEmpty{
+		display: none;
+	}
 }
