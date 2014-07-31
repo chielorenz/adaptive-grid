@@ -40,11 +40,23 @@ https://github.com/chielorenz/adaptiveGrid.git
 .adaptiveGrid .empty{
 	visibility: hidden;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
+	.adaptiveGrid .oneThird,
+	.adaptiveGrid .oneQuarter,
+	.adaptiveGrid .oneFifth{
+		width: 44%;
+	}
+	.adaptiveGrid .twoThird,
+	.adaptiveGrid .threeQuarter,
+	.adaptiveGrid .fourFifth{
+		width: 94%;
+	}
+		.adaptiveGrid .empty{
+		display: none;
+	}
+}
+@media only screen and (max-width: 550px){
 	.adaptiveGrid > div{
 		width: 94% !important;
-	}
-	.adaptiveGrid .empty{
-		display: none;
 	}
 }
