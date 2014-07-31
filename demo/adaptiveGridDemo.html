@@ -9,114 +9,149 @@ This fil is a demo of the grid.
 <!DOCTYPE html>
 <head>
 	<title>Adaptive grid</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
+	<!-- IMPORTANT: link the adaptivegrid's css -->
 	<link rel="stylesheet" type="text/css" href="../adaptiveGrid.css">
+
+	<!-- add font from google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
+	<!-- some style -->
+	<style type="text/css">
+		body{
+			color: #363636;
+			background-color: #EDEEF0;
+			background-image: url('img/gray.png');
+			font-family: 'Open Sans', sans-serif;
+		}
+		a{
+			color:#01678D;
+		}
+		a:hover,  a:active{
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+		}
+		.adaptiveGrid .shadow:hover{
+			-webkit-box-shadow: 0 0 8px #01678D;
+	   		   -moz-box-shadow: 0 0 8px #01678D;
+			        box-shadow: 0 0 8px #01678D;
+		}
+	</style>
 </head>
-<body>
-<style type="text/css">
-	body{
-		color: #363636;
-		background-color: #EFEFEF;
-		background-image: url('img/gray.png');
-		font-family: 'Open Sans', sans-serif;
-	}
-	a{
-		color:#075687;
-	}
-	a:hover,  a:active{
-		text-decoration: none;
-		margin: 0;
-		padding: 0;
-	}
-</style>
-	
+<body>	
 	<div class="adaptiveGrid">
 		<div class="fill" style="background-color: transparent">
 			<h1>Adaptive Grid: <span style="color: #666666"> all css fluid grid layout demo.</span></h1>
 		</div>
 		<div class="fill" style="background-color: transparent">
-			<h4>Matching classes:</h4>
+			<h4>You can match the classis to fill the space like so:</h4>
 		</div>
 	</div>
 	<div class="adaptiveGrid">
-		<div class="fill"><p>.fill</p></div>
+		<div class="fill shadow"><p>.fill</p></div>
 
-		<div class="fourFifth"><p>.fourFifth</p></div>
-		<div class="oneFifth"><p>.oneFifth</p></div>
+		<div class="fourFifth shadow shadow"><p>.fourFifth</p></div>
+		<div class="oneFifth shadow shadow"><p>.oneFifth</p></div>
 
-		<div class="threeQuarter"><p>.threeQuarter</p></div>
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
+		<div class="threeQuarter shadow shadow"><p>.threeQuarter</p></div>
+		<div class="oneQuarter shadow shadow"><p>.oneQuarter</p></div>
 
-		<div class="twoThird"><p>.twoThird</p></div>
-		<div class="oneThird"><p>.oneThird</p></div>
+		<div class="twoThird shadow shadow"><p>.twoThird</p></div>
+		<div class="oneThird shadow shadow"><p>.oneThird</p></div>
 
-		<div class="half"><p>.half</p></div>
-		<div class="half"><p>.half</p></div>
+		<div class="half shadow shadow"><p>.half</p></div>
+		<div class="half shadow shadow"><p>.half</p></div>
 
-		<div class="oneThird"><p>.oneThird</p></div>
-		<div class="twoThird"><p>.twoThird</p></div>
+		<div class="oneThird shadow shadow"><p>.oneThird</p></div>
+		<div class="twoThird shadow shadow"><p>.twoThird</p></div>
 
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
-		<div class="threeQuarter"><p>.threeQuarter</p></div>
+		<div class="oneQuarter shadow shadow"><p>.oneQuarter</p></div>
+		<div class="threeQuarter shadow shadow"><p>.threeQuarter</p></div>
 
-		<div class="oneFifth"><p>.oneFifth</p></div>
-		<div class="fourFifth"><p>.fourFifth</p></div>
-		<div class="fill"><p>.fill</p></div>
+		<div class="oneFifth shadow shadow"><p>.oneFifth</p></div>
+		<div class="fourFifth shadow shadow"><p>.fourFifth</p></div>
 	</div>
 
 	<div class="adaptiveGrid">
 		<div class="fill" style="background-color: transparent">
-			<h4>Multiple istances, same class:</h4>
+			<h4>or use multiple istances of the same class:</h4>
 		</div>
 	</div>
 	<div class="adaptiveGrid">
-		<div class="half"><p>.half</p></div>
-		<div class="half"><p>.half</p></div>
+		<div class="half shadow"><p>.half</p></div>
+		<div class="half shadow"><p>.half</p></div>
 
-		<div class="oneThird"><p>.oneThird</p></div>
-		<div class="oneThird"><p>.oneThird</p></div>
-		<div class="oneThird"><p>.oneThird</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
 
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
 
-		<div class="oneFifth"><p>.oneFifth</p></div>
-		<div class="oneFifth"><p>.oneFifth</p></div>
-		<div class="oneFifth"><p>.oneFifth</p></div>
-		<div class="oneFifth"><p>.oneFifth</p></div>
-		<div class="oneFifth"><p>.oneFifth</p></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
 	</div>
-
 
 	<div class="adaptiveGrid">
 		<div class="fill" style="background-color: transparent">
-			<h4>Combine classes:</h4>
+			<h4>or combine different classes:</h4>
 		</div>
 	</div>
 	<div class="adaptiveGrid">
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
-		<div class="half"><p>.half</p></div>
-		<div class="oneQuarter"><p>.oneQuarter</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+		<div class="half shadow"><p>.half</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
 
+		<div class="half shadow"><p>.half</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+
+	</div>	
+
+	<div class="adaptiveGrid">
+		<div class="fill" style="background-color: transparent">
+			<h4>You can also add the <i>empty</i> class to a div to get the css <i>visibility : hidden</i> property effect.</h4>
+		</div>
+	</div>
+	<div class="adaptiveGrid">
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
 		<div class="half empty"></div>
-		<div class="half"><p>.half</p></div>
+		<div class="oneQuarter shadow"><p>.oneQuarter</p></div>
+
+		<div class="half empty shadow"><p><i>.half .empty</i></p></div>
+		<div class="half shadow"><p>.half</p></div>
 		
-		<div class="half"><p>.half</p></div>
-		<div class="half empty"></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
+		<div class="oneThird empty"></div>
+		<div class="oneFifth shadow"><p>.oneFifth</p></div>
 
 		<div class="oneThird empty" style="clear:both"></div>
-		<div class="oneThird"><p>.oneThird</p></div>
+		<div class="oneThird shadow"><p>.oneThird</p></div>
 		<div class="oneThird empty"></div>
 	</div>
+		<div class="adaptiveGrid">
+		<div class="fill" style="background-color: transparent">
+			<h4><i>NOTE:</i> resize your screen (width < 600px ) to trigger media queries and see the <i>empty</i> class magically disappear.</h4>
+		</div>
+	</div>
 
-	<div class="adaptiveGrid" style="clear: both; margin-top: 80px; text-align: center">
-		<div class="half"><h4>Easy - fast - handy... Hope enjoy!</h4></div>
-		<div class="oneQuarter" style="text-align: center; background-color: #FFAD5C; background-image: url(img/gray.png)">
+	<div class="adaptiveGrid" style="margin-top:100px; text-align: center">
+		<div class="half">
+			<h4><h4>that's it - easy - fast - handy... Hope enjoy!</h4></h4>
+		</div>
+		<div class="oneQuarter">
 			<h4>view on <a href="https://github.com/chielorenz/adaptiveGrid">github</a></h4>
 		</div>
-		<div class="oneQuarter" style="text-align: center; background-color: #FFAD5C; background-image: url(img/gray.png)">
+		<div class="oneQuarter">
 			<h4><a href="https://github.com/chielorenz/adaptiveGrid/archive/master.zip">download zip</a></h4>
 		</div>
 	</div>
