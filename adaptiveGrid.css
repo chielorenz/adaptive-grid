@@ -6,18 +6,7 @@ https://github.com/chielorenz/adaptiveGrid.git
 CSS NOTE: .*Empty classes ore placeholders class to align other divs as you like.
 When media queries are anableb -*Empty divs will no longer be displayed.
 */
-.adaptiveGrid{
-	width: 100%;
-	overflow: hidden;
-}
-.adaptiveGrid .fill,
-.adaptiveGrid .half,
-.adaptiveGrid .oneThird,
-.adaptiveGrid .twoThird,
-.adaptiveGrid .oneQuarter,
-.adaptiveGrid .threeQuarter,
-.adaptiveGrid .oneFifth,
-.adaptiveGrid .fourFifth{
+.adaptiveGrid > *{
 	background-color: #CDCDCD;
 	border-radius: 5px;
 	margin: 10px 1% 10px 1%;
@@ -49,62 +38,14 @@ When media queries are anableb -*Empty divs will no longer be displayed.
 .adaptiveGrid .fourFifth{
 	width: 74%;
 }
-.adaptiveGrid .fillEmpty,
-.adaptiveGrid .halfEmpty,
-.adaptiveGrid .oneThirdEmpty,
-.adaptiveGrid .twoThirdEmpty,
-.adaptiveGrid .oneQuarterEmpty,
-.adaptiveGrid .threeQuarterEmpty,
-.adaptiveGrid .oneFifthEmpty,
-.adaptiveGrid .fourFifthEmpty{
-	float: left;
-	overflow: hidden;
+.adaptiveGrid .empty{
 	background-color: transparent;
-	margin: 10px 1% 10px 1%;
-}
-.adaptiveGrid .fillEmpty{
-	width: 100%;
-}	
-.adaptiveGrid .halfEmpty{
-	width: 48%;
-}
-.adaptiveGrid .oneThirdEmpty{
-	width: 31.333%;
-}
-.adaptiveGrid .twoThirdEmpty{
-	width: 64.666%;
-}
-.adaptiveGrid .oneQuarterEmpty{
-	width: 23%;
-}
-.adaptiveGrid .threeQuarterEmpty{
-	width: 73%;
-}
-.adaptiveGrid .oneFifthEmpty{
-	width: 22%;
-}
-.adaptiveGrid .fourFifthEmpty{
-	width: 78%;
 }
 @media only screen and (max-width: 600px){
-	.adaptiveGrid .fill,
-	.adaptiveGrid .half,
-	.adaptiveGrid .oneThird,
-	.adaptiveGrid .twoThird,
-	.adaptiveGrid .oneQuarter,
-	.adaptiveGrid .threeQuarter,
-	.adaptiveGrid .oneFifth,
-	.adaptiveGrid .fourFifth{
-		width: 94%;
+	.adaptiveGrid > *{
+		width: 94% !important;
 	}
-	.adaptiveGrid .fillEmpty,
-	.adaptiveGrid .halfEmpty,
-	.adaptiveGrid .oneThirdEmpty,
-	.adaptiveGrid .twoThirdEmpty,
-	.adaptiveGrid .oneQuarterEmpty,
-	.adaptiveGrid .threeQuarterEmpty,
-	.adaptiveGrid .oneFifthEmpty,
-	.adaptiveGrid .fourFifthEmpty{
+	.adaptiveGrid .empty{
 		display: none;
 	}
 }
