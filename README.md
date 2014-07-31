@@ -1,6 +1,6 @@
 <h3>Adaptive grid: simple css adaptive grid layout.</h3>
 
-<a href="http://www.lucalorenzini.org/adaptiveGrid/adaptiveGridDemo.html">I'm a live demo, try me!</a>
+<a href="http://www.lucalorenzini.org/adaptiveGrid/demo/adaptiveGridDemo.html">I'm a live demo, try me!</a>
 
 <p>Making mokups i got tired of my non-collaborative floating divs so i made this very simple adaptive grid to quickly start a new project.</p>
 
