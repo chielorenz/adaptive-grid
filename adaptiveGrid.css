@@ -6,12 +6,20 @@ https://github.com/chielorenz/adaptiveGrid.git
 .adaptiveGrid{
 	overflow: hidden;
 }
-.adaptiveGrid > div{
+.adaptiveGrid .fill,
+.adaptiveGrid .half,
+.adaptiveGrid .oneThird,
+.adaptiveGrid .twoThird,
+.adaptiveGrid .oneQuarter,
+.adaptiveGrid .threeQuarter,
+.adaptiveGrid .oneFifth,
+.adaptiveGrid .fourFifth{
 	background-color: #CDCDCD;
 	border-radius: 5px;
 	margin: 10px 1% 10px 1%;
 	padding: 5px 2% 5px 2%;
 	float: left;
+	overflow: hidden;
 }
 .adaptiveGrid .fill{
 	width: 94%;
@@ -56,7 +64,14 @@ https://github.com/chielorenz/adaptiveGrid.git
 	}
 }
 @media only screen and (max-width: 550px){
-	.adaptiveGrid > div{
+	.adaptiveGrid .fill,
+	.adaptiveGrid .half,
+	.adaptiveGrid .oneThird,
+	.adaptiveGrid .twoThird,
+	.adaptiveGrid .oneQuarter,
+	.adaptiveGrid .threeQuarter,
+	.adaptiveGrid .oneFifth,
+	.adaptiveGrid .fourFifth{
 		width: 94% !important;
 	}
 }
